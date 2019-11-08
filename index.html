@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>A Simple Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="calculator">
+<div id="inputLabel"></div>
+    <!-- <input type="text"  id="inputLabel" value=""> -->
+
+    <div class="calculator-keys">
+
+      <button onclick="pushBtn(this);" type="button" class="operator" value="+">+</button>
+      <button onclick="pushBtn(this);" type="button" class="operator" value="-">-</button>
+      <button onclick="pushBtn(this);" type="button" class="operator" value="*">&times;</button>
+      <button onclick="pushBtn(this);" type="button" class="operator" value="/">&divide;</button>
+
+      <button onclick="pushBtn(this);" type="button" value="7">7</button>
+      <button onclick="pushBtn(this);" type="button" value="8">8</button>
+      <button onclick="pushBtn(this);" type="button" value="9">9</button>
+
+
+      <button onclick="pushBtn(this);" type="button" value="4">4</button>
+      <button onclick="pushBtn(this);" type="button" value="5">5</button>
+      <button onclick="pushBtn(this);" type="button" value="6">6</button>
+
+
+      <button onclick="pushBtn(this);" type="button" value="1">1</button>
+      <button onclick="pushBtn(this);" type="button" value="2">2</button>
+      <button onclick="pushBtn(this);" type="button" value="3">3</button>
+
+
+      <button onclick="pushBtn(this);" type="button" value="0">0</button>
+      <button onclick="pushBtn(this);" type="button" class="decimal" value=".">.</button>
+      <button onclick="pushBtn(this);" type="button" class="all-clear" value="all-clear">AC</button>
+      <button onclick="pushBtn(this);" type="button" class="equal-sign" value="=">=</button>
+      <button onclick="pushBtn(this);" type="button" value="3">%</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
